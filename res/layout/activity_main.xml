@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context=".MainActivity" >
+	<TextView
+	    style="@style/CustomViewStyle"
+	    android:gravity="center"
+	    android:textSize="30sp"
+	    android:background="#3300ff00"
+	    android:text="自定义控件合集"/>
+	<TextView 
+	    android:id="@+id/tv_viewpager"
+	    style="@style/CustomViewStyle"
+	    android:text="ViewPagerDemo"/>
+     
+	<TextView
+	    android:id="@+id/tv_youku" 
+	    style="@style/CustomViewStyle"
+	    android:text="YoukuMenuDemo"/>
+     
+	<TextView
+	    android:id="@+id/tv_spinner" 
+	    style="@style/CustomViewStyle"
+	    android:text="SpinnerDemo"/>
+     
+	<TextView
+	    android:id="@+id/tv_switch" 
+	    style="@style/CustomViewStyle"
+	    android:text="SwitchViewDemo"/>
+     
+	<TextView
+	    android:id="@+id/tv_sliding" 
+	    style="@style/CustomViewStyle"
+	    android:text="SlidingMenuDemo"/>
+     
+	<TextView
+	    android:id="@+id/tv_sweep" 
+	    style="@style/CustomViewStyle"
+	    android:text="SweepViewDemo"/>
+     
+
+</LinearLayout>
